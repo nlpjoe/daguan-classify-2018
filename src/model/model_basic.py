@@ -87,6 +87,7 @@ class BasicDeepModel(BasicModel):
         # word 特征
         self.word_max_len = config.WORD_MAXLEN
         self.max_w_features = config.max_w_features
+        # mask 数值
         self.char_mask_value = self.max_c_features - 2
         self.word_mask_value = self.max_w_features - 2
         self.batch_size = config.BATCH_SIZE
@@ -370,24 +371,8 @@ class BasicDeepModel(BasicModel):
 
             elif option == 5:
                 # adam 目前最佳
-
-                # if self.config.n_gpus == 1:
-                    # if self.config.main_feature == 'all':
-                        # self.model.get_layer('char_embedding').trainable = True
-                        # self.model.get_layer('word_embedding').trainable = True
-                    # elif self.config.main_feature == 'word':
-                        # self.model.get_layer('word_embedding').trainable = True
-                    # elif self.config.main_feature == 'char':
-                        # self.model.get_layer('char_embedding').trainable = True
-                    # else:
-                        # exit('Wrong feature')
-
-                #  if self.config.model_name == 'rnn_attention':
-                    #  opt = optimizers.SGD(lr=0.2, decay=1e-6, momentum=0.95, nesterov=True)
                 opt = optimizers.Adam(lr=1e-3, clipnorm=1.0)
-                #  opt = optimizers.RMSprop(lr=0.001, rho=0.9, epsilon=None, decay=0.0)
                 self.model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
-                #  self.model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['acc'])
                 self.model.summary()
                 callbacks = [
                     checkpoint,

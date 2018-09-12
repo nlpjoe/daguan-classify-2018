@@ -1,6 +1,6 @@
 # 达观杯2018
 
-参数没调好，仓促比赛，单模型线上没测过，线下0.784，最终得分0.791，排名18，排名不高就不多写了，等着前排分享。思路如同代码所写，很简单。
+参数没调好，仓促比赛，单模型线上没测过，线下0.784，最终得分0.791，排名18/3462，排名不高就不多写了，等着前排分享。思路如同代码所写，很简单。
 
 数据请在[达观数据](http://www.dcjingsai.com/common/cmpt/%E2%80%9C%E8%BE%BE%E8%A7%82%E6%9D%AF%E2%80%9D%E6%96%87%E6%9C%AC%E6%99%BA%E8%83%BD%E5%A4%84%E7%90%86%E6%8C%91%E6%88%98%E8%B5%9B_%E8%B5%9B%E4%BD%93%E4%B8%8E%E6%95%B0%E6%8D%AE.html)处下载，放在data目录下。
 
@@ -50,6 +50,8 @@ python train_predict.py --gpu 4,5,6,7 --option 5 --model convlstm --feature char
 ```
 python stacking.py --gpu 1 --tfidf True --option 5
 ```
+
+这里是stacking和伪标签一起做了，请修改代码自选是否用伪标签。
 
 
 
