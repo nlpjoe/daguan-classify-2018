@@ -1,4 +1,6 @@
 # 达观杯2018
+[![Backers on Open Collective](https://opencollective.com/daguan-2018/backers/badge.svg)](#backers)
+ [![Sponsors on Open Collective](https://opencollective.com/daguan-2018/sponsors/badge.svg)](#sponsors) 
 
 参数没调好，仓促比赛，单模型线上没测过，线下0.784，最终得分0.791，排名18/3462，排名不高就不多写了，等着前排分享。思路如同代码所写，很简单。
 
@@ -53,5 +55,35 @@ python stacking.py --gpu 1 --tfidf True --option 5
 
 这里是stacking和伪标签一起做了，请修改代码自选是否用伪标签。
 
+
+
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/nlpjoe/daguan-classify-2018/graphs/contributors"><img src="https://opencollective.com/daguan-2018/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/daguan-2018#backer)]
+
+<a href="https://opencollective.com/daguan-2018#backers" target="_blank"><img src="https://opencollective.com/daguan-2018/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/daguan-2018#sponsor)]
+
+<a href="https://opencollective.com/daguan-2018/sponsor/0/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/1/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/2/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/3/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/4/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/5/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/6/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/7/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/8/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/daguan-2018/sponsor/9/website" target="_blank"><img src="https://opencollective.com/daguan-2018/sponsor/9/avatar.svg"></a>
 
 
